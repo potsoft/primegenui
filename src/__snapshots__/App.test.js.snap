@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders snapshot correctly when no-primes-generated-yet 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <p>
+      Prime Number Generation Example UI
+    </p>
+  </header>
+  <form
+    onSubmit={[Function]}
+  >
+    <fieldset
+      className="App-LimitEntry"
+    >
+      <legend>
+        Generate Primes
+      </legend>
+      <label
+        htmlFor="limit"
+      >
+        From Zero To:
+      </label>
+      <span
+        className="App-HSpacer"
+      />
+      <input
+        data-testid="limitInput"
+        name="limit"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <span
+        className="App-HSpacer"
+      />
+      <button
+        type="submit"
+      >
+        Go!
+      </button>
+    </fieldset>
+  </form>
+  <fieldset
+    className="App-PrimesBox"
+  >
+    <legend
+      className="App-PrimesBox-OK-Headline"
+    >
+      no primes generated yet!
+    </legend>
+    <div
+      className="App-PrimesWrap"
+    >
+      <span
+        className="App-VSpacer"
+        data-testid="primesEmpty"
+      />
+    </div>
+  </fieldset>
+</div>
+`;

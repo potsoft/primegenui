@@ -15,11 +15,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -28,11 +29,75 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-VSpacer {
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
+
+.App-HSpacer {
+  min-width: 2vw;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.App-LimitEntry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: #282c34;
+  font-size: calc(5px + 2vmin);
+}
+
+.App-PrimesBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5vh;
+  margin-right: 2vw;
+  margin-bottom: 5vh;
+  margin-left: 2vw;
+  justify-content: center;
+  border: 2px solid #282c34;
+  color: #282c34;
+  font-size: calc(5px + 2vmin);
+}
+
+.App-PrimesBox-Error-Headline {
+  color: #ff0000;
+}
+
+.App-PrimesBox-OK-Headline {
+  color: #282c34;
+}
+
+
+.App-PrimesWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 3px solid #bbbbbb;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 3px solid #bbbbbb;
+  background: solid;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+}
+
